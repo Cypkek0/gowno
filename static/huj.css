@@ -1,0 +1,618 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.tlo {
+    background: rgb(52, 58, 64);
+
+}
+
+.nawigacja {
+    list-style: none;
+    background-color: rgb(52, 58, 64);
+    width: 100%;
+    top: 0;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu {
+    width: 100%;
+    background: rgb(52, 58, 64);
+    position: absolute;
+    display: none;
+}
+
+ul li a:hover {
+    background: aqua;
+}
+
+ul li:hover .submenu {
+    display: block
+}
+
+.podnav {
+    padding-top: 60px;
+    padding-left: 10px;
+}
+
+.zdjkot {
+    text-align: right;
+    float: right;
+    margin-right: 100px;
+}
+
+.tekstwstep {
+    font-family: Sans-serif;
+}
+
+.rozmiartytul {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.test {
+    padding-top: 250px;
+}
+
+.rozmiargigant {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rozmiardefault {
+    font-size: 25px;
+    text-align: center;
+}
+
+#kotmenu:hover {
+    content: url(zdjecia/cat4-kopia.png);
+
+}
+
+.tekstlink {
+    text-decoration: none;
+    color: white;
+}
+
+.pole {
+    border: 60px solid aqua;
+}
+
+footer .pole {
+    border: 60px solid rgb(52, 58, 64);
+}
+
+.lewo {
+    text-align: left;
+    position: relative;
+}
+
+.srodek {
+    text-align: center;
+
+}
+
+.t2 {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 40px;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    line-height: 1em;
+}
+
+.prawo {
+    text-align: right;
+}
+
+
+.zdjecia {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.wielkosc {
+    width: 32%;
+}
+
+.wielkosc3 {
+    width: 25%;
+
+}
+
+.tlorogi {
+    background: rgb(52, 58, 64);
+    border-radius: 25px;
+}
+
+.tlorogi3 {
+    background-color: white;
+    border-radius: 25px;
+    height: 220px;
+    padding: 50px;
+}
+
+.tlorogi2 {
+    background: aqua;
+    border-radius: 25px;
+
+}
+
+.odstep {
+    padding-top: 80px;
+}
+
+footer .odstep {
+    padding-right: 150px;
+    font-size: 50px;
+}
+
+.kalendarz {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+
+}
+
+.ustawienie {
+    display: flex;
+    padding-top: 25px;
+}
+
+#cat {
+    padding-right: 15px;
+    height: 340px;
+    width: 500px;
+}
+
+#top-button {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+#top-button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.bialy {
+    color: white;
+}
+
+
+.custom-button {
+    display: inline-block;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid aqua;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.5s, color 0.3s;
+    font-size: 15px;
+}
+
+.custom-button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.custom-button2 {
+    display: inline-block;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(52, 58, 64);
+    background: transparent;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.5s, color 0.3s;
+    font-size: 15px;
+}
+
+.custom-button2:hover {
+    background-color: rgb(52, 58, 64);
+    color: white;
+}
+
+.wielkosc2 {
+    font-size: 25px;
+}
+
+form {
+    max-width: 700px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+form label {
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+
+form input[type="submit"],
+form input[type="reset"] {
+    background-color: aqua;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tekstform {
+    padding-top: 50px;
+    color: white;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    padding: 12px 24px;
+}
+
+.tlo2 {
+    background: rgb(83, 94, 105);
+}
+
+.ikonki {
+    justify-content: space-around;
+}
+
+.kotdomowy {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+.lewytekst {
+
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.prawytekst {
+    padding-right: 100px;
+    padding-left: 50px;
+
+}
+
+.teksty {
+    display: flex;
+    align-items: center;
+}
+
+.pading {
+    padding: 20px;
+}
+
+.czcionkacienka {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+.tablecolor2 {
+    background-color: rgb(162, 189, 172);
+}
+
+.tablecolor1 {
+    background-color: rgb(107, 142, 120);
+}
+
+.czarny {
+    color: rgb(107, 142, 120);
+}
+
+.motyw-niebieski .tablecolor2 {
+    background-color: #c4d8e2;
+}
+
+.motyw-niebieski .tablecolor1 {
+    background-color: #93afc3;
+}
+
+.motyw-niebieski .czarny {
+    color: #93afc3;
+}
+
+#budowakocicy,
+#budowakotka {
+    height: 600px;
+    width: 900px;
+}
+
+h6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.ukryty {
+    display: none;
+}
+
+.responsywnosc {
+    font-size: 24px;
+}
+
+.kotpuszek {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+
+.kotpuszekzdj {
+    height: 400px;
+    width: 300px;
+    ;
+    border: 2px solid black;
+}
+
+.kotpuszekzdj2 {
+    height: 400px;
+    width: 600px;
+    ;
+    border: 2px solid black;
+}
+
+
+@media only screen and (max-width: 550px) {
+    svg {
+        display: none;
+    }
+
+    .ukryty {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .nawigacja ul {
+        flex-direction: column;
+
+    }
+
+    .nawigacja ul li {
+        display: block;
+        text-align: center;
+
+    }
+
+    .nawigacja ul li::after {
+        content: "";
+
+    }
+
+    #kotmenu {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .custom-button,
+    .custom-button2 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #cat {
+        display: none;
+    }
+
+    .submenu {
+        position: static;
+        display: none;
+    }
+
+    .nawigacja ul li:hover .submenu {
+        display: none;
+    }
+
+    .nawigacja {
+        width: 100%
+    }
+
+    .kalendarz {
+        width: 150px;
+        height: 150px;
+    }
+
+    .wielkosc2 {
+        text-align: center;
+    }
+
+
+    #budowakocicy {
+        max-width: 250px;
+        max-height: 250px;
+        width: auto;
+        height: auto;
+    }
+
+    #budowakotka {
+        max-width: 250px;
+        max-height: 250px;
+        width: auto;
+        height: auto;
+    }
+
+    #koscikota {
+        max-width: 550px;
+        max-height: 550px;
+        width: auto;
+        height: auto;
+    }
+
+    .podnav {
+        padding-top: 100px;
+    }
+
+    form {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .wielkosc3 {
+        width: 30%;
+    }
+
+    .responsywnosc {
+        font-size: 11px;
+    }
+
+    .kotpuszek {
+        font-size: 15px;
+        display: block;
+    }
+
+    .kotpuszekzdj {
+        height: 100%;
+        width: 100%;
+        ;
+        border: 2px solid black;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .kotpuszekzdj2 {
+        height: 100%;
+        width: 100%;
+        border: 2px solid black;
+        display: block;
+        margin-bottom: 20px;
+
+    }
+}
+
+.ukrytyjs {
+    display: none;
+}
+
+.guzikjs {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+}
+
+#mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #000;
+    display: none;
+}
+
+#boxes .window {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 440px;
+    height: 200px;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#boxes #dialog {
+    width: 750px;
+    height: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    font-family: 'Segoe UI Light', sans-serif;
+    font-size: 15pt;
+}
+
+#popupfoot {
+    font-size: 16pt;
+    position: absolute;
+    bottom: 0px;
+    width: 250px;
+    left: 250px;
+}
